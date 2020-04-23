@@ -11,25 +11,26 @@
 
   <div>
     <div>
-      <h1>Hello World, we are software developers!!</h1>
+      <h1 id="title">Hello World, we are software developers!!</h1>
       <h2>Do you want to join Microverse?</h2>
+      <p id="description">Hello, this form is for anyone interested in joining Microverse.</p>
     </div>
 
     <div>
-      <form>
+      <form id="survey-form">
         <div>
-          <label for="fName">First Name</label><br>
-          <input type="text" id="fName" name="fName" value="Enter Name">
+          <label for="name" id="name-label">Name</label><br>
+          <input type="text" id="name" name="name" value="Enter Full Name" required>
         </div>
 
         <div>
-          <label for="lName">Last Name</label><br>
-          <input type="text" id="lName" name="lName" value="Enter Name">
-        </div>
-
-        <div>
-          <label for="email">Email Address</label><br>
+          <label for="email" id="email-label">Email Address</label><br>
           <input type="email" id="email" name="email" value="Enter email">
+        
+        </div>
+        <div>
+          <label for="number" id="email-label">Email Address</label><br>
+          <input type="number" id="number" name="number value="Enter Phone Number" min="11" max="23">
         </div>
 
         <div>
